@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 124px;
+}
+
+.rightBlock {
+  display: flex;
+  width: 443px;
+  align-items: center;
+}
+
+.logo {
+  width: 344px;
+  height: 60px;
+  margin-left: 100px;
+
+  font-family: Lobster;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+.enter {
+  width: 130px;
+  height: 36px;
+  left: 493px;
+  top: 44px;
+
+  background: #07319d;
+  border-radius: 4px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #ffffff;
+}
+
+.reg {
+  width: 137px;
+  height: 16px;
+  left: 999px;
+  top: 54px;
+}
+
+.regLink {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #07319d;
+  text-decoration-line: none;
+}
+
+.enterLink {
+  color: white;
+  text-decoration-line: none;
+}

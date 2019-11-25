@@ -1,0 +1,63 @@
+.container {
+  position: relative;
+  width: 304px;
+  height: 315px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(8, 35, 48, 0.15);
+  margin-bottom: 100px;
+}
+
+.text {
+  position: relative;
+  width: 234px;
+  height: 24px;
+  left: 24px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.count_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.picture {
+  position: relative;
+  width: 304px;
+  height: 315px;
+}
+
+.picLikeNone {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
+  z-index: 5;
+  display: none;
+}
+
+.container .picLike {
+  position: absolute;
+  z-index: 5;
+  top: calc(50% - 50px);
+  left: calc(50% - 55px);
+  z-index: 5;
+}
+
+.counter {
+  position: absolute;
+  z-index: 6;
+  top: calc(50% - 12px);
+  left: calc(50% - 8px);
+}
+
+.LikeCoount {
+  position: absolute;
+  margin: auto;
+}

@@ -1,0 +1,84 @@
+.container {
+  position: absolute;
+  left: 40%;
+  z-index: 10;
+  background: #ffffff;
+  width: 363px;
+  height: 569px;
+  overflow: clip;
+}
+.topTextContainer {
+  position: absolute;
+  top: 17px;
+  right: 28px;
+}
+.topText {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 9px;
+
+  color: #000000;
+}
+
+.registration {
+  position: relative;
+}
+
+.regTitle {
+  position: absolute;
+  left: 56px;
+  top: 65px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  z-index: 10;
+
+  color: #000000;
+}
+
+.regForm {
+  position: absolute;
+  left: 56px;
+  top: 140px;
+}
+
+.regForm input {
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 0.5px solid #dde2e8;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  color: #b7c2ce;
+  width: 283px;
+  padding-bottom: -20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.buttonReg {
+  width: 281px;
+  height: 36px;
+  background: #07319d;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: white;
+  margin-top: 40px;
+}
